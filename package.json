@@ -1,0 +1,19 @@
+{
+  "name": "moonforge-custody",
+  "version": "1.0.0",
+  "description": "Serverless HTTP API with DynamoDB and offline support",
+  "repository": "",
+  "author": "Djordje Marjanovic <djordje@hey.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@imtbl/core-sdk": "^1.0.0-beta.3",
+    "dynamodb-toolbox": "^0.6.0",
+    "ethers": "^5.7.2",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.12.0",
+    "serverless-dynamodb-local": "^0.2.18",
+    "serverless-offline": "^6.8.0"
+  }
+}
